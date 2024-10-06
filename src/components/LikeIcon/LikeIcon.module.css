@@ -1,0 +1,22 @@
+.like-wrapper {
+    border-radius: 4px;
+    width: 30px;
+    height: 28px;
+    background: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.like-wrapper svg {
+    fill: #F8F8F8;
+    transition: fill 0.3s ease;
+}
+
+.liked svg {
+    fill: #512689;
+    transition: fill 0.3s ease;
+}

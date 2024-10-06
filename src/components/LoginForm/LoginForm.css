@@ -1,0 +1,123 @@
+* {
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+
+    @media (min-width: 480px) {
+        height: 100vh;
+        padding-top: 0;
+    }
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    max-width: 375px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+
+    @media (min-width: 480px) {
+        max-width: 500px;
+    }
+
+}
+
+.login-form h2 {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    color: #000;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 136%;
+    display: block;
+
+}
+
+.form-group input {
+    width: 100%;
+    padding: 16px 8px 16px 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(241, 241, 241);
+    font-size: 14px;
+}
+
+.form-group input.error {
+    border: 1px solid red;
+    background-color: rgb(255, 241, 241);
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+
+button[type='submit'] {
+    width: 100%;
+    background-color: #512689;
+    color: white;
+    padding: 13px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 136%;
+}
+
+button[type='submit']:hover {
+    background-color: #552bcc;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.eye-icon-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 375px) {
+    .form-group label {
+        font-size: 14px;
+    }
+}
