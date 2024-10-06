@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/user-cards/static/css/main.a61d4cfa.css",
+    "main.js": "/user-cards/static/js/main.82a4329d.js",
+    "static/media/ic_round-exit-to-app.svg": "/user-cards/static/media/ic_round-exit-to-app.029da92b45a01830dacb5be599ea4d49.svg",
+    "static/media/Eye Off.svg": "/user-cards/static/media/Eye Off.ea8d0ad12b2b36bfb8bf8e25c157ec15.svg",
+    "static/media/eva_arrow-ios-back-fill.svg": "/user-cards/static/media/eva_arrow-ios-back-fill.9c92895c6130f26bff09e95fe53fabea.svg",
+    "index.html": "/user-cards/index.html",
+    "static/media/Vector.svg": "/user-cards/static/media/Vector.061e171d2a52e699ffb3579ec85fbc42.svg",
+    "main.a61d4cfa.css.map": "/user-cards/static/css/main.a61d4cfa.css.map",
+    "main.82a4329d.js.map": "/user-cards/static/js/main.82a4329d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a61d4cfa.css",
+    "static/js/main.82a4329d.js"
+  ]
+}
